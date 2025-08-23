@@ -1,0 +1,18 @@
+{
+    "name": "BuildInfo.Editor",
+    "rootNamespace": "BuildInfo",
+    "references": [
+        "BuildInfo.Runtime",
+        "UCBEnvironment.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.freakshowstudio.ucb-environment",
+            "expression": "1.0.0",
+            "define": "HAS_UCB_ENVIRONMENT"
+        }
+    ]
+}
