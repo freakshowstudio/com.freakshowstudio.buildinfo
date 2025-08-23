@@ -27,11 +27,10 @@ namespace BuildInfo.Editor
             bi.BuildNumber = GetBuildNumber();
             bi.BuildTime = DateTime.Now.ToString("O");
 #if HAS_UCB_ENVIRONMENT
-            if (UnityCloudBuildEnvironment
-                .IsBuilder
-                .Equals(
-                    "true",
-                    StringComparison.OrdinalIgnoreCase))
+            if (bool.TryParse(
+                    UnityCloudBuildEnvironment.IsBuilder,
+                    out var isBuilder)
+                && isBuilder)
             {
                 bi.BuildRevision = UnityCloudBuildEnvironment.BuildRevision;
             }
