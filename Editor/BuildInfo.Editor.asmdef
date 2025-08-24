@@ -3,7 +3,7 @@
     "rootNamespace": "BuildInfo",
     "references": [
         "BuildInfo.Runtime",
-        "UCBEnvironment.Editor"
+        "UcbEnvironment.Editor"
     ],
     "includePlatforms": [
         "Editor"
