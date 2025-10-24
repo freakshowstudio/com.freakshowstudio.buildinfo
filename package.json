@@ -9,5 +9,14 @@
         "information"
     ],
     "category": "Scripting",
-    "dependencies": {}
+    "dependencies": {},
+    "author": {
+      "name": "Freakshow Studio AS",
+      "url": "https://github.com/freakshowstudio"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/freakshowstudio/com.freakshowstudio.buildinfo"
+    },
+    "license": "MIT"
 }
