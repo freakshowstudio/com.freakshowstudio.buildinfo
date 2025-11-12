@@ -1,15 +1,15 @@
 ﻿
 using System;
 using System.IO;
-using BuildInfo.Runtime;
+using FreakshowStudio.BuildInfo.Runtime;
 using UnityEditor;
 using UnityEditor.Build;
 using UnityEditor.Build.Reporting;
 #if HAS_UCB_ENVIRONMENT
-using UcbEnvironment.Editor;
+using FreakshowStudio.UcbEnvironment.Editor;
 #endif
 
-namespace BuildInfo.Editor
+namespace FreakshowStudio.BuildInfo.Editor
 {
     internal sealed class GenerateBuildInfo : IPreprocessBuildWithReport
     {

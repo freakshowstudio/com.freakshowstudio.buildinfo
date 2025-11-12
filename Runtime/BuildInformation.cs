@@ -3,7 +3,7 @@ using System.IO;
 using UnityEngine;
 
 
-namespace BuildInfo.Runtime
+namespace FreakshowStudio.BuildInfo.Runtime
 {
     internal sealed class BuildInformation : ScriptableObject
     {
