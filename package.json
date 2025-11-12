@@ -1,7 +1,7 @@
 {
     "name": "com.freakshowstudio.buildinfo",
     "displayName": "Build Info",
-    "version": "1.0.2",
+    "version": "2.0.0",
     "unity": "6000.0",
     "description": "Creates a build info object accessible at runtime",
     "keywords": [

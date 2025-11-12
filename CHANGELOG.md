@@ -1,3 +1,16 @@
+# [2.0.0](https://github.com/freakshowstudio/com.freakshowstudio.buildinfo/compare/v1.0.2...v2.0.0) (2025-11-12)
+
+
+### Bug Fixes
+
+* Add company name to assembly name ([fb0c50d](https://github.com/freakshowstudio/com.freakshowstudio.buildinfo/commit/fb0c50d4a09c355ff34c235e0ccfe92aa8d3a89d))
+
+
+### BREAKING CHANGES
+
+* Changes the assembly, and thus the import, name.
+Update imports to reflect the new name.
+
 ## [1.0.2](https://github.com/freakshowstudio/com.freakshowstudio.buildinfo/compare/v1.0.1...v1.0.2) (2025-10-24)
 
 
